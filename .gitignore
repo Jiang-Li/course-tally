@@ -38,7 +38,13 @@ app.log
 
 # Project specific
 data/
-Course Tally.xlsx
+Course .xlsx
+
+# Excel files
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
 
 # OS specific
 .DS_Store
