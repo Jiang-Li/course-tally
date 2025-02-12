@@ -3,10 +3,11 @@
 A Python tool for reading and analyzing course tally data from Excel files. This tool helps in analyzing course information by checking for data shape and duplicates.
 
 ## Features
-
-- Read and process course tally data from Excel files
-- Display dataframe shape (rows and columns)
-- Check and report duplicate entries
+- Read and process course tally data from Excel files (Course Tally.xlsx), which can be downloaded from the course tally BI dashboard
+- Compare and update course information between tally data and Leeds course data
+- Display column mapping between files to identify matched and unmatched fields
+- Clean and standardize data fields like course numbers and days for consistent comparison
+- Track and report any unmatched courses or data discrepancies
 
 ## Installation
 
