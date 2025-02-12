@@ -1,6 +1,6 @@
 # Course Tally Reader
 
-A Python tool for reading and analyzing course tally data from Excel files. This tool helps in analyzing course information by checking for data shape and duplicates.
+A Python tool for reading course tally data from Excel files and updating course information in Leeds course data files. The tool compares data between files, standardizes fields like course numbers and days, and reports any discrepancies.
 
 ## Features
 - Read and process course tally data from Excel files (Course Tally.xlsx), which can be downloaded from the course tally BI dashboard
