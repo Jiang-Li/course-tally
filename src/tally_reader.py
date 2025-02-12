@@ -40,12 +40,12 @@ def read_tally_file(file_path):
     # Remove any columns that are completely empty
     df = df.dropna(axis=1, how='all')
     
-    # Get first three columns plus Room for uniqueness check
-    key_columns = list(df.iloc[:, :3].columns) + ['Room']
+    # Get first three columns plus Days for uniqueness check
+    key_columns = list(df.iloc[:, :3].columns) + ['Days']
     print(f"\nChecking columns: {key_columns}")  # Debug print
     
-    if 'Room' not in df.columns:
-        print("\nWarning: 'Room' column not found in the data")
+    if 'Days' not in df.columns:
+        print("\nWarning: 'Days' column not found in the data")
         return df, False, key_columns
         
     key_cols_df = df[key_columns]
